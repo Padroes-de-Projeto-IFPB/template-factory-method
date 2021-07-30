@@ -2,7 +2,7 @@ package br.edu.ifpb.padroes.templatemethod;
 
 public abstract class BuildService {
 
-    public void build() {
+    public final void build() {
         this.test();
         this.lint();
         this.assemble();
